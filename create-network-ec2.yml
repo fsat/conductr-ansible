@@ -126,7 +126,7 @@
         health_check:
             ping_protocol: http
             ping_port: 9005
-            ping_path: /members
+            ping_path: /v2/members
             response_timeout: 5
             interval: 30
             unhealthy_threshold: 2
